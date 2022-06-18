@@ -6,11 +6,6 @@
       "files": "http://mc.norhu1130.tech:9080/job/KPaper/lastSuccessfulBuild/artifact/KPaper.jar"
     },
     {
-      "type": "move",
-      "source": "KPaper.jar",
-      "target": "KPaper.jar"
-    },
-    {
       "type": "writefile",
       "text": "server-ip=${ip}\nserver-port=${port}\nmotd=${motd}\n",
       "target": "server.properties"
